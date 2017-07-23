@@ -19,6 +19,6 @@ EVA is a DHL Assistive Chatbot. It is prototype designed to handle DHL's custome
 # Finally your agent is ready to work.
 
 # Below is link of working agent EVA
-   <a href="https://bot.api.ai/592b96a4-7162-44dc-8e67-d50258a2900e" target="_blank"><img src="https://drive.google.com/file/d/0B51Rqoz0M6OUNTcyQ2VHWExubkk/view?usp=sharing"></a>
+   <a href="https://bot.api.ai/592b96a4-7162-44dc-8e67-d50258a2900e" target="_blank"><img src="https://lh3.googleusercontent.com/QfaVadh_8yXrPkBy0N5WM9xaFw1_LVahLPg0C3wdmlxwj_jDCmtnavbVzDehHav-C63feWmynzTUrGI=w1920-h979-rw"></a>
 
 
