@@ -1,0 +1,16 @@
+{
+  "id": "1193c13f-1542-49f9-8b1b-944e50ef023e",
+  "name": "Enquiry",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "enquiry",
+      "synonyms": [
+        "enquiry",
+        "enquire"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false
+}

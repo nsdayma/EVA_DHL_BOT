@@ -1,1 +1,15 @@
-
+{
+  "id": "9bf2a3b5-5bad-44c6-aa71-563685ff7be6",
+  "name": "DHL",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "DHL",
+      "synonyms": [
+        "dhl"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "6ea3aab0-9f97-44ea-8dd9-593a463f8781",
+  "name": "CountryToCities",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "@sys.geo-county-gb",
+      "synonyms": [
+        "@sys.geo-county-gb"
+      ]
+    },
+    {
+      "value": "@sys.geo-city-gb",
+      "synonyms": [
+        "@sys.geo-city-gb"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": true
+}

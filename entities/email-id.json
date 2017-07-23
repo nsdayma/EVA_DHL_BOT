@@ -1,0 +1,15 @@
+{
+  "id": "15f13bc3-452e-4f85-b83a-570561d77015",
+  "name": "email-id",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "@sys.email",
+      "synonyms": [
+        "@sys.email"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": true
+}

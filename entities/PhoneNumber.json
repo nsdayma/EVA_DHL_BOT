@@ -1,0 +1,15 @@
+{
+  "id": "c6a6cbcc-e9a9-49f4-ad69-dde3c98c9ba2",
+  "name": "PhoneNumber",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "@sys.phone-number",
+      "synonyms": [
+        "@sys.phone-number"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": true
+}
