@@ -1,0 +1,68 @@
+{
+  "description": "Assistive Chatbot for DHL",
+  "language": "en",
+  "activeAssistantAgents": [
+    "smalltalk-domain-on",
+    "smalltalk-fulfillment-on"
+  ],
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "eva-nvgsbl",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "1bcf91d7-acdb-4583-abca-927d6efb0730",
+        "signInRequired": false
+      },
+      {
+        "intentId": "2b8eec6a-e7d1-45e9-87bb-d8fb36166d6f",
+        "signInRequired": false
+      },
+      {
+        "intentId": "575c412f-5a7f-431c-b2e9-03dde07c8ef5",
+        "signInRequired": false
+      },
+      {
+        "intentId": "6d7d1881-fcee-4cef-8cce-805e617729da",
+        "signInRequired": false
+      },
+      {
+        "intentId": "8dc8beee-1503-4973-aec9-40994541c896",
+        "signInRequired": false
+      },
+      {
+        "intentId": "ab39c2f4-7c85-46e9-9890-d0661d5e5b7a",
+        "signInRequired": false
+      },
+      {
+        "intentId": "c38e5608-e08f-4569-a0fc-376fb43f092f",
+        "signInRequired": false
+      },
+      {
+        "intentId": "c66949a2-07ef-4032-9fe6-783fadebe888",
+        "signInRequired": false
+      },
+      {
+        "intentId": "f4c0b4e8-2c00-4a1e-996d-4ac5184696c1",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "available": false,
+    "useForDomains": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.instead",
+  "mlMinConfidence": 0.3
+}
