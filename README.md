@@ -14,7 +14,7 @@ EVA is a DHL Assistive Chatbot. It is prototype designed to handle DHL's custome
 
 3. Then Click on the "gear icon" next to agent name <Name-of-the-agent-you-created>.
 4. Find "Export and Import" tab below the agent name.
-5. Click on "RESTORE FROM ZIP" button and select the .zip file that I have provided and type "RESTORE" in the text bar.
+5. Click on "RESTORE FROM ZIP" button and select the "EVA.zip" file that I have provided and type "RESTORE" in the text bar.
 
 # Finally your agent is ready to work.
 
