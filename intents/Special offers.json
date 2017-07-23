@@ -1,0 +1,119 @@
+{
+  "userSays": [
+    {
+      "id": "dc1c832e-5ff2-415f-aad0-6c9077425470",
+      "data": [
+        {
+          "text": "offers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6e3c7e8b-649b-4047-a78c-114980aaba01",
+      "data": [
+        {
+          "text": "special offer for students"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "611270f2-c11c-49d6-8140-dc8d57f0534e",
+      "data": [
+        {
+          "text": "offers for students"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "58d99f75-a2d5-4e35-a313-1db11c7c3fa6",
+      "data": [
+        {
+          "text": "current offers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eed6ce5b-43b2-403a-b95e-109844356002",
+      "data": [
+        {
+          "text": "special price"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a33c252b-9d0d-48aa-87d4-d8d6dbe0145f",
+      "data": [
+        {
+          "text": "today",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "\u0027s offer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fb3d4b3-0530-4974-8e38-ac64d4403813",
+      "data": [
+        {
+          "text": "do you have special offers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2b8eec6a-e7d1-45e9-87bb-d8fb36166d6f",
+  "name": "Special offers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "support.special_offers",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Have a look at our website. We always have some interesting offers there. Visit this link http://bit.ly/1pN1jUi",
+            ""
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "",
+          "buttons": [
+            {
+              "text": "Website",
+              "postback": "http://example.com/"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

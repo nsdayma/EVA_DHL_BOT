@@ -1,0 +1,131 @@
+{
+  "userSays": [
+    {
+      "id": "fed49ce4-01a9-4a57-acfa-c1c37bd8be4f",
+      "data": [
+        {
+          "text": "when will my shipment reach"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "429e2eca-3d0e-448f-87f9-5b47870943f4",
+      "data": [
+        {
+          "text": "when will my package reach"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1d8977b9-022d-41ee-849d-4f53819d2ed9",
+      "data": [
+        {
+          "text": "when will my package arrive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7abc257e-3bc8-4fd2-8534-e2a13c740480",
+      "data": [
+        {
+          "text": "when will my shipment arrive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "784c6a25-68e1-4c98-9df9-679554978415",
+      "data": [
+        {
+          "text": "tell me about delivery time frame"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e0060457-df77-4780-972b-93d903ab60f3",
+      "data": [
+        {
+          "text": "when will my order arrive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2bf9a37c-b72a-4ccc-930e-f8ed58d94b88",
+      "data": [
+        {
+          "text": "when can I receive my order"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "709c5d8a-4676-4e17-a414-7aefde8aada5",
+      "data": [
+        {
+          "text": "shipping time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b0cb4f27-d2b2-42f2-9348-7990509919f5",
+      "data": [
+        {
+          "text": "delivery time"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c66949a2-07ef-4032-9fe6-783fadebe888",
+  "name": "Delivery time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "support.delivery",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can check the estimated delivery time on the Deliver page of our website."
+        },
+        {
+          "type": 1,
+          "platform": "slack",
+          "title": "",
+          "buttons": [
+            {
+              "text": "Delivery",
+              "postback": "http://example.com/delivery"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

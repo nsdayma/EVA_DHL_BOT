@@ -1,0 +1,215 @@
+{
+  "userSays": [
+    {
+      "id": "0dbc20c0-897d-4b52-b3ab-c3f25ae681ae",
+      "data": [
+        {
+          "text": "give me real person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19feae94-1f61-4b74-8cc5-a5b22f8a4892",
+      "data": [
+        {
+          "text": "connect me to customer support"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d177bfc-939e-4b03-9d90-04f41fb0aa88",
+      "data": [
+        {
+          "text": "i wanna talk to your agent"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "310d3329-0633-40c1-b243-786135752f60",
+      "data": [
+        {
+          "text": "1233455875",
+          "alias": "PhoneNumber",
+          "meta": "@PhoneNumber",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8dd77ae-e907-4002-ab82-6e6546320ca6",
+      "data": [
+        {
+          "text": "2344677265",
+          "alias": "PhoneNumber",
+          "meta": "@PhoneNumber",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aab52041-edf8-4dbc-9c5e-0ba5f9f66fa6",
+      "data": [
+        {
+          "text": "8733899387",
+          "alias": "PhoneNumber",
+          "meta": "@PhoneNumber",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f3d154ed-1c42-4f59-b09b-42f7c66a9d13",
+      "data": [
+        {
+          "text": "9866577654",
+          "alias": "PhoneNumber",
+          "meta": "@PhoneNumber",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c06ef6ba-9ee6-4c15-b0cb-a5dafbcc0fef",
+      "data": [
+        {
+          "text": "7655433456",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31e60420-c6ec-4e2b-ae90-f1168675730a",
+      "data": [
+        {
+          "text": "connect to person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ad2781d-6a60-4eeb-8d83-704fcd1f7913",
+      "data": [
+        {
+          "text": "It doesn\u0027t help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7d03c95-2624-4f10-b903-34fd7ed9b892",
+      "data": [
+        {
+          "text": "It doesn\u0027t help me, I want to ask a real person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5fec1ff6-dea4-45ea-9712-05754d400b82",
+      "data": [
+        {
+          "text": "can I talk to a real person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d79cd593-6c80-429d-988c-238e8207fa28",
+      "data": [
+        {
+          "text": "connect me to support team"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "093d89be-2204-48c3-90cd-2df5a7714215",
+      "data": [
+        {
+          "text": "can someone from a real team help me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df228e53-f2e1-466a-b1a7-735690391e86",
+      "data": [
+        {
+          "text": "connect me with a live agent"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2380e51a-e69c-46a1-9f04-6dafe98b2fdc",
+      "data": [
+        {
+          "text": "chat with a person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ab39c2f4-7c85-46e9-9890-d0661d5e5b7a",
+  "name": "Connect with live agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "support.live_person",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@PhoneNumber",
+          "name": "PhoneNumber",
+          "value": "$PhoneNumber",
+          "prompts": [
+            "Tell me your phone number and our customer service will connect with you in short time."
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thanks for the information! Our support team will get in touch with you shortly on this $PhoneNumber number."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

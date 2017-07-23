@@ -1,0 +1,105 @@
+{
+  "userSays": [
+    {
+      "id": "576d4713-7908-48f3-8796-388f7cefb207",
+      "data": [
+        {
+          "text": "i want to know more about you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9766aa19-37fa-4460-baa4-7b8229df8201",
+      "data": [
+        {
+          "text": "what are you here for"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "50f7706e-cc74-426e-9230-a3871ee408e4",
+      "data": [
+        {
+          "text": "tell me about "
+        },
+        {
+          "text": "eva",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc162d44-235f-4acf-b075-57c46950ca6d",
+      "data": [
+        {
+          "text": "what are you here for?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "528eb4a4-9db7-4fe4-b57c-ba95fe514d81",
+      "data": [
+        {
+          "text": "what can you do for me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9aa4d5fc-641f-41ca-ac58-07df9142257f",
+      "data": [
+        {
+          "text": "tell me something about you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "575c412f-5a7f-431c-b2e9-03dde07c8ef5",
+  "parentId": "c38e5608-e08f-4569-a0fc-376fb43f092f",
+  "rootParentId": "c38e5608-e08f-4569-a0fc-376fb43f092f",
+  "name": "Eva_Introduction - custom",
+  "auto": true,
+  "contexts": [
+    "Eva_Introduction-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Eva_Introduction.Eva_Introduction-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "DHL created me to help you in any package related issue."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,167 @@
+{
+  "userSays": [
+    {
+      "id": "23205095-e40a-4814-8e7f-a28fdf2d1bc6",
+      "data": [
+        {
+          "text": "change my shipping address to "
+        },
+        {
+          "text": "123, paund road",
+          "alias": "address",
+          "meta": "@sys.address",
+          "userDefined": false
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "pune",
+          "alias": "CountryToCities",
+          "meta": "@CountryToCities",
+          "userDefined": true
+        },
+        {
+          "text": " - "
+        },
+        {
+          "text": "411038",
+          "alias": "zip-code",
+          "meta": "@sys.zip-code",
+          "userDefined": false
+        },
+        {
+          "text": " ."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a955e711-a2c7-4e98-b588-f84ed8060c2e",
+      "data": [
+        {
+          "text": "change shipping location to "
+        },
+        {
+          "text": "Pune",
+          "alias": "CountryToCities",
+          "meta": "@CountryToCities",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a478b99-6e80-4928-b892-f1ebc5cc06ff",
+      "data": [
+        {
+          "text": "reroute"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7eb4c912-8b2d-4a24-b8e4-6bebdd9b3e50",
+      "data": [
+        {
+          "text": "relocate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5facd67-4de7-4b1f-9467-83c93c2fcf08",
+      "data": [
+        {
+          "text": "change delivery address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a667a672-5abe-458e-957d-c7a278691789",
+      "data": [
+        {
+          "text": "I want to re-route my package"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5729f988-c73f-41eb-8118-a8f05bc79e11",
+      "data": [
+        {
+          "text": "change my delivery location"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6d7d1881-fcee-4cef-8cce-805e617729da",
+  "name": "re-routing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "re-routing-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@CountryToCities",
+          "name": "CountryToCities",
+          "value": "$CountryToCities",
+          "prompts": [
+            "Give me city name."
+          ],
+          "isList": true
+        },
+        {
+          "required": true,
+          "dataType": "@sys.zip-code",
+          "name": "zip-code",
+          "value": "$zip-code",
+          "prompts": [
+            "Tell me pin code/ zip code of that area"
+          ],
+          "isList": true
+        },
+        {
+          "required": true,
+          "dataType": "@sys.address",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            "Tell me the address for new delivery location"
+          ],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your shipping address is changed to $address.original, $CountryToCities - $zip-code.original ."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,47 @@
+{
+  "userSays": [],
+  "id": "77394275-f6ec-4dcd-ad39-b18121deb235",
+  "parentId": "1bcf91d7-acdb-4583-abca-927d6efb0730",
+  "rootParentId": "1bcf91d7-acdb-4583-abca-927d6efb0730",
+  "name": "Contact us - fallback",
+  "auto": false,
+  "contexts": [
+    "Contactus-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Contactus.Contactus-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "platform": "facebook",
+          "payload": {
+            "facebook": {
+              "attachment": {
+                "type": "link",
+                "payload": {
+                  "url": "http://www.dhl.co.in/en/logistics/supply_chain_solutions/contact_us.html"
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": 0,
+          "speech": "Sorry, I don\u0027t understand you. You can write us at http://www.dhl.co.in/en/logistics/supply_chain_solutions/contact_us.html"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

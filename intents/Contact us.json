@@ -1,0 +1,268 @@
+{
+  "userSays": [
+    {
+      "id": "86af1deb-f207-431d-b409-9b0bb2c2f5f1",
+      "data": [
+        {
+          "text": "I want to do "
+        },
+        {
+          "text": "enquiry",
+          "alias": "Enquiry",
+          "meta": "@Enquiry",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c870f228-2376-4f5b-8fdd-01bdf64b5750",
+      "data": [
+        {
+          "text": "contact number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bdf16662-8ec5-4c8e-ad4f-ec6b9d3703ba",
+      "data": [
+        {
+          "text": "customer service contact"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8454d5e-cf81-4076-942b-88386a334b88",
+      "data": [
+        {
+          "text": "customer services"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9955242-d433-4493-a288-71c9f90021d7",
+      "data": [
+        {
+          "text": "customer service"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e50a11c5-97ce-494e-8df6-a602a447fc0f",
+      "data": [
+        {
+          "text": "contact"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "35595bdb-58ce-4c89-b265-d907234b390f",
+      "data": [
+        {
+          "text": "contact information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b79f97a8-ebce-4a2a-8c50-b33dda32e6f9",
+      "data": [
+        {
+          "text": "tell me your address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6250d4f-c521-478e-9970-cbff056f628d",
+      "data": [
+        {
+          "text": "contact info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63eb0443-a820-4f0e-8046-07821a1f0236",
+      "data": [
+        {
+          "text": "how do I contact your company"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f3a3bd7-03bd-4b68-ad51-a673463954bd",
+      "data": [
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " creators"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "068dca4a-8c87-49f1-8328-79a20dece2df",
+      "data": [
+        {
+          "text": "what is "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61f9ad5a-3cfb-4299-9002-fbbd201bb0ab",
+      "data": [
+        {
+          "text": "how can i "
+        },
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " developers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0851f8a2-f60f-40f0-81ac-c1af66607350",
+      "data": [
+        {
+          "text": "contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " company"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6378b542-6e5a-4f0d-9b36-87bfccf83889",
+      "data": [
+        {
+          "text": "what is "
+        },
+        {
+          "text": "your",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "company\u0027s contact",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1bcf91d7-acdb-4583-abca-927d6efb0730",
+  "name": "Contact us",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "support.contacts",
+      "affectedContexts": [
+        {
+          "name": "Contactus-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Enquiry",
+          "name": "Enquiry",
+          "value": "$Enquiry",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "DHL Express/Customer service 1800 11 1345",
+            "DHL $Enquiry link  http://www.dhl.co.in/en/logistics/supply_chain_solutions/contact_us.html"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

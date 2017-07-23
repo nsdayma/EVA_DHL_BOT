@@ -1,1 +1,148 @@
-
+{
+  "userSays": [
+    {
+      "id": "8097f121-b33c-4570-8c44-259c691134bc",
+      "data": [
+        {
+          "text": "track my shipment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "83d05afe-292d-43cd-84cb-eecafedc2902",
+      "data": [
+        {
+          "text": "track shipment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "959e1842-1031-43e8-91f6-3da7a26421cd",
+      "data": [
+        {
+          "text": "track my package"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "091f788f-8cef-487a-99df-e0c3f65454b5",
+      "data": [
+        {
+          "text": "locate my shipment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb32675a-f6e7-4ecd-a634-c62f017f209b",
+      "data": [
+        {
+          "text": "shipment location"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7426bf7-2620-4321-b32d-41e8a96db5de",
+      "data": [
+        {
+          "text": "package location"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8e81c97-ad8a-4e98-940b-33e5c5ab92f3",
+      "data": [
+        {
+          "text": "tell me where is my package"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51bfcb16-ab46-42e2-a421-6309179325a1",
+      "data": [
+        {
+          "text": "locate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47bfe565-6e77-48bc-8bdd-a870ef758615",
+      "data": [
+        {
+          "text": "locate my package"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4ce118b-8206-4ab9-87bf-17442b15ae9e",
+      "data": [
+        {
+          "text": "where is my package"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "dc926ede-9e97-4d70-a295-49a4dcbd1652",
+      "data": [
+        {
+          "text": "track package"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ca6ac24-c594-4684-9518-52e7df8374d8",
+      "data": [
+        {
+          "text": "track"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f4c0b4e8-2c00-4a1e-996d-4ac5184696c1",
+  "name": "Tracking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "track-package",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Package\u0027s location details have been sent to your email-id"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

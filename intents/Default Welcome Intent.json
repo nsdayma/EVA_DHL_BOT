@@ -1,0 +1,118 @@
+{
+  "userSays": [
+    {
+      "id": "e9c4e584-7988-487b-8817-57976581b8a6",
+      "data": [
+        {
+          "text": "help me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22f3b599-fe87-4ebc-9c7c-f33ace37fc1b",
+      "data": [
+        {
+          "text": "Eva",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "d914283d-91b7-406a-81fc-4b95c2a59916",
+      "data": [
+        {
+          "text": "hey"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e637ab3-e637-4c20-b9eb-9c95ad21fb06",
+      "data": [
+        {
+          "text": "help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cea147fa-993a-4a0b-8389-0801d3803d4f",
+      "data": [
+        {
+          "text": "hii"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ee957a9-f8e0-40ba-a1bf-de73ea29767c",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b1587f7-6e12-40ec-ab1c-138514f4cdd1",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6140c601-0f1a-4c33-9a00-5763b0f29460",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hello, I\u0027m Eva - DHL Assistive Chatbot. How can I help you?",
+            "Hi, I\u0027m Eva - DHL Assistive Chatbot. How can I help you?",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "slack": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}
